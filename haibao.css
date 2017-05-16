@@ -1,0 +1,87 @@
+﻿#main{
+	width: 800px;
+	height: 700px;
+	border:1px solid black;
+	margin: 0px auto;
+}
+#main>div:nth-child(1){
+	width: 800px;
+	height: 60px;
+	background-color: #613712;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	line-height: 60px;
+}
+#main>div:nth-child(2){
+	width: 600px;
+	height: 600px;
+	
+	margin: 0px auto;
+	margin-top:40px;
+}
+#imgDiv{
+	width: 600px;
+	height: 200px;
+
+	position: relative;
+}
+#imgDiv>div{
+	width: 135px;
+	height: 200px;
+	
+	margin-right: 20px;
+}
+#imgDiv>div:nth-child(1){	
+	background: url(images/image1.png) no-repeat;
+	background-size: 135px 200px;
+	position: absolute;
+	top:2px;
+
+	border:2px solid yellow;
+}
+#imgDiv>div:nth-child(2){	
+	background: url(images/image2.png) no-repeat;
+	background-size: 135px 200px;
+	position: absolute;
+	top:2px;
+	left: 155px;
+
+	border:2px solid white;
+}
+#imgDiv>div:nth-child(3){
+	background: url(images/image3.png) no-repeat;
+	background-size: 135px 200px;
+	position: absolute;
+	top:2px;
+	left: 310px;
+
+	border:2px solid white;
+}
+#imgDiv>div:nth-child(4){	
+	background: url(images/image4.png) no-repeat;
+	background-size: 135px 200px;
+	position: absolute;
+	top:2px;
+	left: 465px;
+
+	border:2px solid white;
+}
+h3{
+	font-family: 黑体;
+}
+p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: gray;
+}
+span{
+	font-size: 13px;
+	color: #b0b0b0;
+}
+#massage>div{
+	display: none;
+}
+#massage>div:nth-child(1){
+	display: block;
+}
